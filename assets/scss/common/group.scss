@@ -35,9 +35,6 @@
   &-block {
     position: relative;
     width: calc(100% / 3 * 2);
-    .title-block {
-
-    }
   }
 
   a:hover p,
@@ -73,5 +70,9 @@
 @media screen and (max-width: 767px){
   .group {
     flex-direction: column;
+    &-block,
+    &-blocks {
+      width: 100%;
+    }
   }
 }

@@ -272,6 +272,9 @@ header .container {
   .group {
     flex-direction: column;
   }
+  .group-block, .group-blocks {
+    width: 100%;
+  }
 }
 .clients {
   margin-top: 50px;
@@ -551,6 +554,9 @@ header .container {
   }
   .in-images {
     flex-direction: column;
+  }
+  .in-images-item {
+    flex-basis: 100%;
   }
   .transfer {
     display: block;

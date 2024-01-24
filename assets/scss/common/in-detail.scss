@@ -106,6 +106,9 @@
   }
   .in-images {
     flex-direction: column;
+    &-item {
+      flex-basis: 100%;
+    }
   }
   .transfer {
     display: block;
