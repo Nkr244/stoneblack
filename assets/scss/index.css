@@ -220,6 +220,7 @@ header .container {
 .group-blocks {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 .group-blocks a {
   position: relative;
@@ -240,6 +241,7 @@ header .container {
 }
 .group-block {
   position: relative;
+  width: 66.6666666667%;
 }
 .group a:hover p {
   display: block;
@@ -516,6 +518,9 @@ header .container {
 .in-images {
   display: flex;
   margin-bottom: 50px;
+}
+.in-images-item {
+  flex-basis: 50%;
 }
 .in-images-item img {
   display: block;

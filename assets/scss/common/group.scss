@@ -10,7 +10,7 @@
   &-blocks {
     display: flex;
     flex-direction: column;
-
+    width: calc(100% / 2);
     a {
       position: relative;
     }
@@ -34,7 +34,7 @@
 
   &-block {
     position: relative;
-
+    width: calc(100% / 3 * 2);
     .title-block {
 
     }
