@@ -1,0 +1,42 @@
+.clients {
+
+  margin-top: 50px;
+  h1 {
+    margin-bottom: 50px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  &-item {
+    margin-bottom: 70px;
+    flex-basis: calc(16.6666% - 10px);
+    a {
+      img {
+        filter: grayscale(1);
+        transition: .3s;
+      }
+      img:hover {
+        filter: grayscale(0);
+        scale: 1.1;
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .clients-item a img {
+    filter: grayscale(0);
+  }
+}
+@media screen and (max-width: 550px) {
+  .clients-item a img {
+    width: 100%;
+  }
+  .clients-item {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+  }
+}

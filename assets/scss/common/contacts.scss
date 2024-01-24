@@ -1,0 +1,182 @@
+.title {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.contacts {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 45px;
+  font-size: 18px;
+
+  &-item {
+    flex-basis: 50%;
+
+    span,
+    a {
+      color: #8b8b8b;
+      text-decoration: none;
+    }
+  }
+}
+
+.application {
+  background-color: #efeff0;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-bottom: 15px;
+
+  p {
+    color: #8b8b8b;
+  }
+
+  .container {
+    display: flex;
+    gap: 100px;
+  }
+
+  &-item {
+    flex-basis: 50%;
+
+    h2 {
+      margin-bottom: 45px;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      textarea,
+      input {
+        color: #8b8b8b;
+      }
+
+      label {
+        margin-bottom: 5px;
+        font-weight: 600;
+      }
+
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 15px;
+        flex-basis: 50%;
+
+        input[type="checkbox"],
+        input[type="file"] {
+          display: none;
+
+        }
+
+        label[for="checkbox"] {
+          padding-left: 20px;
+          margin-bottom: 0;
+        }
+
+        label[for="file"] {
+          padding-left: 15px;
+          margin-bottom: 0;
+          cursor: pointer;
+        }
+
+        label[for='checkbox'] {
+          font-size: 12px;
+          cursor: pointer;
+        }
+
+        img {
+          width: 25px;
+          height: 25px;
+        }
+
+        textarea,
+        input {
+          border: none;
+          padding: 10px;
+          width: 100%;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+
+
+        .custom-checkbox {
+          position: relative;
+
+          &:before {
+            position: absolute;
+            content: '';
+            top: -10px;
+            left: 0;
+            background-image: url("images/checkbox.png");
+            background-size: 25px;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+          }
+        }
+
+        input[type='checkbox']:checked + .custom-checkbox:before {
+          background-image: url("images/chebox-ok.png");
+        }
+
+      }
+
+      &-file,
+      &-checkbox {
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      button {
+        max-width: 285px;
+        height: 30px;
+        background-color: #f4d600;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      &-blocks {
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .application .container {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .application-item h2 {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .contacts {
+    &-item {
+      flex-basis: 85%;
+    }
+      &-item:last-child {
+        display: none;
+      }
+  }
+}
+@media screen and (max-width: 500px) {
+  .application-item .form-blocks {
+    flex-direction: column;
+  }
+  .application-item .form button {
+    max-width: 200px;
+  }
+}
