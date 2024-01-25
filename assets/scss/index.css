@@ -48,6 +48,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.wrapper {
+  overflow: hidden;
+}
+
 .container-menu,
 .container {
   max-width: 1700px;
