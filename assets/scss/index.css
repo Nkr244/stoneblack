@@ -230,6 +230,7 @@ header .container {
   display: flex;
   flex-direction: column;
   width: 50%;
+  flex-basis: 35%;
 }
 .group-blocks a {
   position: relative;
@@ -252,6 +253,7 @@ header .container {
   position: relative;
   display: flex;
   width: 66.6666666667%;
+  flex-basis: 65%;
 }
 .group a:hover p {
   display: block;
