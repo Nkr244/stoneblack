@@ -5,6 +5,10 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
 .container-menu,
 .container {
   max-width: 1700px;

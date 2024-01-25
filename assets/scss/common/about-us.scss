@@ -1,0 +1,23 @@
+.about-us {
+  margin-bottom: 35px;
+  h2 {
+    margin: 35px 0;
+  }
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #757575;
+  }
+  &-banner {
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-us {
+    p {
+      font-size: 14px;
+    }
+  }
+}

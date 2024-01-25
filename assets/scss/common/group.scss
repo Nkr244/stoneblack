@@ -34,6 +34,7 @@
 
   &-block {
     position: relative;
+    display: flex;
     width: calc(100% / 3 * 2);
   }
 
@@ -67,6 +68,16 @@
   }
 
 }
+.block {
+  position: relative;
+  overflow: hidden;
+  transform: translateX(-100%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.block.right-to-left {
+  transform: translateX(100%);
+}
+
 @media screen and (max-width: 767px){
   .group {
     flex-direction: column;

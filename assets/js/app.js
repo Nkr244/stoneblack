@@ -37,3 +37,52 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const leftToRightLinks = document.querySelectorAll('.left-to-right');
+    const rightToLeftLinks = document.querySelectorAll('.right-to-left');
+
+    function handleAnimation() {
+        leftToRightLinks.forEach((link, index) => {
+            link.style.transitionDelay = `${index * 0.1}s`;
+        });
+
+        rightToLeftLinks.forEach((link, index) => {
+            link.style.transitionDelay = `${index * 0.1}s`;
+        });
+    }
+
+    function checkVisibility() {
+        const windowHeight = window.innerHeight;
+
+        leftToRightLinks.forEach(link => {
+            const linkTop = link.getBoundingClientRect().top;
+
+            if (linkTop < windowHeight) {
+                link.style.opacity = 1;
+                link.style.transform = 'translateX(0)';
+            }
+        });
+
+        rightToLeftLinks.forEach(link => {
+            const linkTop = link.getBoundingClientRect().top;
+
+            if (linkTop < windowHeight) {
+                link.style.opacity = 1;
+                link.style.transform = 'translateX(0)';
+            }
+        });
+    }
+
+
+    handleAnimation();
+
+
+    window.addEventListener('scroll', checkVisibility);
+
+    window.addEventListener('resize', checkVisibility);
+
+    setTimeout(()=> {
+        checkVisibility();
+    }, 50)
+});
