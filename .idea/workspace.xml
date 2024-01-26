@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838dbf6b-fdb8-4edb-8d15-522172f30f88" name="Changes" comment="" />
+    <list default="true" id="838dbf6b-fdb8-4edb-8d15-522172f30f88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/MontserratAlternates-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/common/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +87,7 @@
       <workItem from="1706183365629" duration="2671000" />
       <workItem from="1706189327748" duration="503000" />
       <workItem from="1706192490174" duration="4572000" />
-      <workItem from="1706268068534" duration="5181000" />
+      <workItem from="1706268068534" duration="7162000" />
     </task>
     <servers />
   </component>

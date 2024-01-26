@@ -1,10 +1,4 @@
 @font-face {
-  font-family: "Montserrat-Light", sans-serif;
-  src: url("fonts/MontserratAlternates-Light.otf") format("truetype");
-  font-style: normal;
-  font-weight: 200;
-}
-@font-face {
   font-family: "Montserrat", sans-serif;
   src: url("fonts/Montserrat-Light.ttf") format("truetype");
   font-style: normal;
@@ -708,7 +702,6 @@ header .container {
 .about-us p {
   font-size: 20px;
   color: #757575;
-  font-family: "Montserrat-Light", sans-serif;
 }
 .about-us-banner img {
   width: 100%;
