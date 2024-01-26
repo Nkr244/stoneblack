@@ -99,8 +99,7 @@ let targetElement = document.getElementById("scrollButton");
         );
         let scrollHeight = window.scrollY || document.documentElement.scrollTop;
         let position = wHeight - 1100
-        console.log(scrollHeight)
-        console.log(position)
+
         if (scrollHeight >= position) {
             targetElement.classList.add("scrolled");
         } else {
