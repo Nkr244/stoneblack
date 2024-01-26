@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var burgerIcon = document.getElementById("burger-icon");
-    var menu = document.getElementById("menu");
-    var burgerIconClose = document.getElementById("burger-icon-close")
+    let burgerIcon = document.getElementById("burger-icon");
+    let menu = document.getElementById("menu");
+    let burgerIconClose = document.getElementById("burger-icon-close")
 
     burgerIcon.addEventListener("click", function () {
         menu.style.right = menu.style.right === "0px" ? "-250px" : "0";
@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 });
 document.addEventListener("DOMContentLoaded", function () {
-    var gallery = document.getElementById("gallery");
-    var modal = document.getElementById("modal");
-    var modalImg = document.getElementById("modal-img");
-    var closeModal = document.getElementById("close-modal");
+    let gallery = document.getElementById("gallery");
+    let modal = document.getElementById("modal");
+    let modalImg = document.getElementById("modal-img");
+    let closeModal = document.getElementById("close-modal");
 
     gallery.addEventListener("click", function (event) {
         if (event.target.tagName === "IMG") {
@@ -86,3 +86,25 @@ document.addEventListener("DOMContentLoaded", function() {
         checkVisibility();
     }, 50)
 });
+
+
+
+let targetElement = document.getElementById("scrollButton");
+    window.addEventListener("scroll", function() {
+
+        let wHeight = Math.max(
+            document.body.scrollHeight, document.documentElement.scrollHeight,
+            document.body.offsetHeight, document.documentElement.offsetHeight,
+            document.body.clientHeight, document.documentElement.clientHeight
+        );
+        let scrollHeight = window.scrollY || document.documentElement.scrollTop;
+        let position = wHeight - 1100
+        console.log(scrollHeight)
+        console.log(position)
+        if (scrollHeight >= position) {
+            targetElement.classList.add("scrolled");
+        } else {
+            targetElement.classList.remove("scrolled");
+        }
+    });
+

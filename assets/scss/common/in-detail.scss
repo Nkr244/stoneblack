@@ -16,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    gap: 5px;
 
     img {
       height: 57px;
@@ -23,6 +24,8 @@
 
     p {
       color: #535353;
+      font-weight: 300;
+      font-size: 20px;
     }
   }
 }
@@ -34,9 +37,8 @@
   }
 
   .container {
-    margin: 45px 0;
-
     p {
+      margin: 45px 0;
       color: #535353;
     }
   }
