@@ -5,17 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838dbf6b-fdb8-4edb-8d15-522172f30f88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-BlackItalic.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Italic.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-LightItalic.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-MediumItalic.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/MontserratAlternates-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/common/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/common/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/common/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/common/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-detail-client.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-detail-client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-razdel.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-razdel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recomend.html" beforeDir="false" afterPath="$PROJECT_DIR$/recomend.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,8 +90,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\stoneblack\assets\fonts" />
+      <recent name="C:\OSPanel\domains\stoneblack\assets" />
       <recent name="C:\OSPanel\domains\stoneblack" />
+      <recent name="C:\OSPanel\domains\stoneblack\assets\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +114,8 @@
       <workItem from="1706183365629" duration="2671000" />
       <workItem from="1706189327748" duration="503000" />
       <workItem from="1706192490174" duration="4572000" />
-      <workItem from="1706268068534" duration="7162000" />
+      <workItem from="1706268068534" duration="14409000" />
+      <workItem from="1706295174809" duration="93000" />
     </task>
     <servers />
   </component>

@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
 }
 html,
 body {
@@ -11,6 +9,12 @@ body {
 }
 .wrapper {
   overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 .container-menu,
 .container {
@@ -20,7 +24,7 @@ body {
 }
 
 h2,h3 {
-  font-weight: 800;
+  font-weight: 700;
 }
 .button-up {
   position: fixed;

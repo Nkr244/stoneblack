@@ -1,45 +1,19 @@
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("fonts/Montserrat-Light.ttf") format("truetype");
+  src: url("assets/fonts/Montserrat-Light.eot");
   font-style: normal;
   font-weight: 300;
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("fonts/Montserrat-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("fonts/Montserrat-Medium.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("fonts/Montserrat-SemiBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("fonts/Montserrat-Bold.ttf") format("truetype");
+  src: url("assets/fonts/Montserrat-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
-}
-@font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("fonts/Montserrat-Black.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 900;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
 }
 
 html,
@@ -49,6 +23,13 @@ body {
 
 .wrapper {
   overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .container-menu,
@@ -59,7 +40,7 @@ body {
 }
 
 h2, h3 {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .button-up {
