@@ -13,11 +13,14 @@ body {
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
+  font-size: 19.5px;
 }
 
+footer,
 header {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
+  font-size: 19.5px;
 }
 
 .container-menu,
@@ -96,7 +99,13 @@ header .container {
   padding: 6px 25px;
   border-radius: 20px;
 }
-.header-contact-button a:hover {
+.header-contact-button a:first-child {
+  background-color: #f4d600;
+}
+.header-contact-button a:first-child:hover {
+  background-color: #ffffff;
+}
+.header-contact-button a:last-child:hover {
   background-color: #f4d600;
 }
 
@@ -358,11 +367,13 @@ header .container {
 }
 .application-item .form textarea,
 .application-item .form input {
+  font-family: "Montserrat", sans-serif;
   color: #8b8b8b;
 }
 .application-item .form label {
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 5px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .application-item .form-item {
   display: flex;
@@ -409,7 +420,7 @@ header .container {
   content: "";
   top: -10px;
   left: 0;
-  background-image: url("images/checkbox.png");
+  background-image: url("assets/images/checkbox.png");
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -417,7 +428,7 @@ header .container {
   height: 25px;
 }
 .application-item .form-item input[type=checkbox]:checked + .custom-checkbox:before {
-  background-image: url("images/chebox-ok.png");
+  background-image: url("assets/images/chebox-ok.png");
 }
 .application-item .form-file, .application-item .form-checkbox {
   flex-direction: row;
@@ -431,7 +442,8 @@ header .container {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 .application-item .form-blocks {
   display: flex;
