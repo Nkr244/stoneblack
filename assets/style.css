@@ -409,7 +409,7 @@ header .container {
   content: "";
   top: -10px;
   left: 0;
-  background-image: url("images/checkbox.png");
+  background-image: url("assets/images/checkbox.png");
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -417,7 +417,7 @@ header .container {
   height: 25px;
 }
 .application-item .form-item input[type=checkbox]:checked + .custom-checkbox:before {
-  background-image: url("images/chebox-ok.png");
+  background-image: url("assets/images/chebox-ok.png");
 }
 .application-item .form-file, .application-item .form-checkbox {
   flex-direction: row;
