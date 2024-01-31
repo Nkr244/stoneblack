@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838dbf6b-fdb8-4edb-8d15-522172f30f88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/clients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/in-detail-client.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/in-detail-client.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/in-detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/in-detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/in-razdel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/in-razdel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/common/recomend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/common/recomend.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recomend.html" beforeDir="false" afterPath="$PROJECT_DIR$/recomend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-    </list>
+    <list default="true" id="838dbf6b-fdb8-4edb-8d15-522172f30f88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +82,7 @@
       <workItem from="1706612524965" duration="1884000" />
       <workItem from="1706620430387" duration="877000" />
       <workItem from="1706622489837" duration="21000" />
-      <workItem from="1706696674623" duration="1636000" />
+      <workItem from="1706696674623" duration="1980000" />
     </task>
     <servers />
   </component>
