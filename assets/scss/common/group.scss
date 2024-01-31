@@ -38,6 +38,13 @@
     display: flex;
     width: calc(100% / 3 * 2);
     flex-basis: 65%;
+    .title-block {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 24px;
+    }
   }
 
   a:hover p,
