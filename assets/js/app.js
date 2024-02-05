@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const leftToRightLinks = document.querySelectorAll('.left-to-right');
     const rightToLeftLinks = document.querySelectorAll('.right-to-left');
 
@@ -82,28 +82,31 @@ document.addEventListener("DOMContentLoaded", function() {
 
     window.addEventListener('resize', checkVisibility);
 
-    setTimeout(()=> {
+    setTimeout(() => {
         checkVisibility();
     }, 50)
 });
 
 
+const scroll = function () {
 
+    let wHeight = Math.max(
+        document.body.scrollHeight, document.documentElement.scrollHeight,
+        document.body.offsetHeight, document.documentElement.offsetHeight,
+        document.body.clientHeight, document.documentElement.clientHeight
+    );
+    let scrollHeight = window.scrollY || document.documentElement.scrollTop;
+    let position = wHeight - 1100
+
+    if (scrollHeight >= position) {
+        targetElement.classList.add("scrolled");
+    } else {
+        targetElement.classList.remove("scrolled");
+    }
+}
 let targetElement = document.getElementById("scrollButton");
-    window.addEventListener("scroll", function() {
-
-        let wHeight = Math.max(
-            document.body.scrollHeight, document.documentElement.scrollHeight,
-            document.body.offsetHeight, document.documentElement.offsetHeight,
-            document.body.clientHeight, document.documentElement.clientHeight
-        );
-        let scrollHeight = window.scrollY || document.documentElement.scrollTop;
-        let position = wHeight - 1100
-        console.log(targetElement)
-        if (scrollHeight >= position) {
-            targetElement.classList.add("scrolled");
-        } else {
-            targetElement.classList.remove("scrolled");
-        }
-    });
+window.addEventListener("scroll", scroll);
+setInterval(function () {
+    scroll();
+}, 100);
 
