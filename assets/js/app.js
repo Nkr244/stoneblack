@@ -109,42 +109,28 @@ jQuery(document).ready(function ($) {
     }, 100)
 
 
-    // const headerButtons = document.querySelectorAll('.header-contact-button-item');
-    // headerButtons.forEach(el => {
-    //     el.addEventListener('mouseover', () => {
-    //         if (el.classList.contains('yellow')) {
-    //             el.classList.remove('yellow')
-    //             console.log(el.parentNode.querySelectorAll('.header-contact-button-item'))
-    //         } else {
-    //             el.classList.add('yellow')
-    //             console.log(el.parentNode.querySelector('.header-contact-button-item'))
+    const headerButtons = $('.header-contact-button-item');
+    headerButtons[0].addEventListener('mouseover', () => {
+        headerButtons[0].classList.remove('yellow')
+        headerButtons[1].classList.add('yellow')
+    })
+    headerButtons[1].addEventListener('mouseover', () => {
+        headerButtons[0].classList.remove('yellow')
+        headerButtons[1].classList.add('yellow')
+    })
     //
-    //         }
-    //     })
-    //     el.addEventListener('mouseout', () => {
-    //         if (el.classList.contains('yellow')) {
-    //             el.classList.remove('yellow')
-    //         } else {
-    //             el.classList.add('yellow')
-    //         }
-    //     })
+    // headerButtons[1].addEventListener('mouseout', () => {
+    //     headerButtons[1].classList.remove('yellow')
+    //     headerButtons[0].classList.add('yellow')
+    // })
+    // headerButtons[0].addEventListener('mouseout', () => {
+    //     headerButtons[1].classList.remove('yellow')
+    //     headerButtons[0].classList.add('yellow')
     // })
 
+
 });
-jQuery(document).ready(function($) {
-    // Добавляем/удаляем класс yellow при наведении/убирании
-    $('.header-contact-button-item').hover(
-        function() {
-            // Удаляем класс yellow у ссылки с классом yellow
-            $('.header-contact-button-item.yellow').removeClass('yellow');
-            // Добавляем класс yellow к текущей ссылке
-            $(this).addClass('yellow');
-        },
-        function() {
-            // При убирании курсора, ничего не делаем (если нужно что-то сделать, добавьте соответствующий код)
-        }
-    );
-});
+
 
 
 
