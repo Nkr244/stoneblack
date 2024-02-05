@@ -104,21 +104,7 @@ header .container {
   padding: 6px 25px;
   border-radius: 20px;
 }
-.header-contact-button a:first-child {
-  background-color: #f4d600;
-}
-.header-contact-button a:first-child:hover {
-  background-color: #ffffff;
-}
-.header-contact-button a:last-child:hover {
-  background-color: #f4d600;
-}
-.header-contact-button a:first-child:hover + a:last-child {
-  background-color: #f4d600;
-}
-.header-contact-button a:last-child:hover + a:first-child {
-  background-color: #ffffff;
-}
+
 
 .burger-menu-icon {
   display: flex;

@@ -92,26 +92,21 @@ document.addEventListener("DOMContentLoaded", function() {
 let targetElement = document.getElementById("scrollButton");
 
 jQuery(document).ready(function($) {
-    $(window).scroll(function() {
-
+    const scrooled = function() {
         var docHeight = $(document).height();
-
-
         var windowHeight = $(window).height();
-
-
         var scrollPos = $(window).scrollTop();
-
-
         var scrollPercent = (scrollPos / (docHeight - windowHeight)) * 100;
-
-
         if (scrollPercent >= 85) {
             targetElement.classList.add("scrolled");
         } else {
             // В противном случае убираем класс
             targetElement.classList.remove("scrolled");
         }
-    });
+    }
+    $(window).scroll(scrooled);
+    setInterval(()=> {
+        scrooled();
+    }, 100)
 });
 
