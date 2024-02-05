@@ -107,20 +107,49 @@ jQuery(document).ready(function ($) {
     setInterval(() => {
         scrooled();
     }, 100)
-const headerButtons = document.querySelectorAll('.header-contact-button-item');
 
-    $('.header-contact-button-item').hover(
+
+    // const headerButtons = document.querySelectorAll('.header-contact-button-item');
+    // headerButtons.forEach(el => {
+    //     el.addEventListener('mouseover', () => {
+    //         if (el.classList.contains('yellow')) {
+    //             el.classList.remove('yellow')
+    //             console.log(el.parentNode.querySelectorAll('.header-contact-button-item'))
+    //         } else {
+    //             el.classList.add('yellow')
+    //             console.log(el.parentNode.querySelector('.header-contact-button-item'))
+    //
+    //         }
+    //     })
+    //     el.addEventListener('mouseout', () => {
+    //         if (el.classList.contains('yellow')) {
+    //             el.classList.remove('yellow')
+    //         } else {
+    //             el.classList.add('yellow')
+    //         }
+    //     })
+    // })
+
+});
+jQuery(document).ready(function($) {
+    // Сохраняем ссылки в переменные для удобства
+    const $links = $('.header-contact-button-item');
+    console.log($links[1])
+    // Обработчик события при наведении
+    $links.hover(
         function() {
-            headerButtons[0].classList.remove('yellow')
-            headerButtons[1].classList.add('yellow')
+            // Удаляем класс yellow у всех ссылок
+            $links.removeClass('yellow');
+            // Добавляем класс yellow к текущей ссылке
+            $(this).addClass('yellow');
         },
-        function () {
-            headerButtons[0].classList.add('yellow')
-            headerButtons[1].classList.remove('yellow')
+        function() {
+            // При убирании курсора, удаляем класс yellow у всех ссылок
+            $links.removeClass('yellow');
+            // Добавляем класс yellow к первой ссылке
+            $links[0].classList.add('yellow');
         }
-
     );
-
 });
 
 
