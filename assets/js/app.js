@@ -132,22 +132,16 @@ jQuery(document).ready(function ($) {
 
 });
 jQuery(document).ready(function($) {
-    // Сохраняем ссылки в переменные для удобства
-    const $links = $('.header-contact-button-item');
-    console.log($links[1])
-    // Обработчик события при наведении
-    $links.hover(
+    // Добавляем/удаляем класс yellow при наведении/убирании
+    $('.header-contact-button-item').hover(
         function() {
-            // Удаляем класс yellow у всех ссылок
-            $links.removeClass('yellow');
+            // Удаляем класс yellow у ссылки с классом yellow
+            $('.header-contact-button-item.yellow').removeClass('yellow');
             // Добавляем класс yellow к текущей ссылке
             $(this).addClass('yellow');
         },
         function() {
-            // При убирании курсора, удаляем класс yellow у всех ссылок
-            $links.removeClass('yellow');
-            // Добавляем класс yellow к первой ссылке
-            $links[0].classList.add('yellow');
+            // При убирании курсора, ничего не делаем (если нужно что-то сделать, добавьте соответствующий код)
         }
     );
 });
