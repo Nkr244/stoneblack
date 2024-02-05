@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let modalImg = document.getElementById("modal-img");
     let closeModal = document.getElementById("close-modal");
 
-    gallery.addEventListener("click", function (event) {
+    gallery?.addEventListener("click", function (event) {
         if (event.target.tagName === "IMG") {
             modal.style.display = "flex";
             modalImg.src = event.target.src;
         }
     });
 
-    closeModal.addEventListener("click", function () {
+    closeModal?.addEventListener("click", function () {
         modal.style.display = "none";
     });
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     const leftToRightLinks = document.querySelectorAll('.left-to-right');
     const rightToLeftLinks = document.querySelectorAll('.right-to-left');
 
@@ -82,31 +82,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('resize', checkVisibility);
 
-    setTimeout(() => {
+    setTimeout(()=> {
         checkVisibility();
     }, 50)
 });
 
 
-const scroll = function () {
 
-    let wHeight = Math.max(
-        document.body.scrollHeight, document.documentElement.scrollHeight,
-        document.body.offsetHeight, document.documentElement.offsetHeight,
-        document.body.clientHeight, document.documentElement.clientHeight
-    );
-    let scrollHeight = window.scrollY || document.documentElement.scrollTop;
-    let position = wHeight - 1100
-
-    if (scrollHeight >= position) {
-        targetElement.classList.add("scrolled");
-    } else {
-        targetElement.classList.remove("scrolled");
-    }
-}
 let targetElement = document.getElementById("scrollButton");
-window.addEventListener("scroll", scroll);
-setInterval(function () {
-    scroll();
-}, 100);
+
+jQuery(document).ready(function($) {
+    $(window).scroll(function() {
+
+        var docHeight = $(document).height();
+
+
+        var windowHeight = $(window).height();
+
+
+        var scrollPos = $(window).scrollTop();
+
+
+        var scrollPercent = (scrollPos / (docHeight - windowHeight)) * 100;
+
+
+        if (scrollPercent >= 85) {
+            targetElement.classList.add("scrolled");
+        } else {
+            // В противном случае убираем класс
+            targetElement.classList.remove("scrolled");
+        }
+    });
+});
 

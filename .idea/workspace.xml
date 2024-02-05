@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838dbf6b-fdb8-4edb-8d15-522172f30f88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.7.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-detail-client.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-detail-client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-razdel.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-razdel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recomend.html" beforeDir="false" afterPath="$PROJECT_DIR$/recomend.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/OSPanel/domains/stoneblack/assets/images",
+    "last_opened_file_path": "C:/OSPanel/domains/stoneblack/assets/js",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\stoneblack\assets\js" />
       <recent name="C:\OSPanel\domains\stoneblack\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -92,7 +102,7 @@
       <workItem from="1706698852811" duration="241000" />
       <workItem from="1706701067521" duration="25000" />
       <workItem from="1706863746792" duration="619000" />
-      <workItem from="1707132861419" duration="2746000" />
+      <workItem from="1707132861419" duration="5273000" />
     </task>
     <servers />
   </component>
