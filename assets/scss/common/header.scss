@@ -37,13 +37,22 @@ header {
       &:first-child {
         background-color: #f4d600;
         &:hover {
-          background-color: #ffffff
+          background-color: #ffffff;
         }
       }
       &:last-child:hover {
         background-color: #f4d600;
       }
     }
+
+    a:first-child:hover + a:last-child {
+      background-color: #f4d600;
+    }
+
+    a:last-child:hover + a:first-child {
+      background-color: #ffffff;
+    }
+
   }
 }
 
