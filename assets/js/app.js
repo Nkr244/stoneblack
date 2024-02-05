@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const leftToRightLinks = document.querySelectorAll('.left-to-right');
     const rightToLeftLinks = document.querySelectorAll('.right-to-left');
 
@@ -82,17 +82,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     window.addEventListener('resize', checkVisibility);
 
-    setTimeout(()=> {
+    setTimeout(() => {
         checkVisibility();
     }, 50)
 });
 
 
-
 let targetElement = document.getElementById("scrollButton");
 
-jQuery(document).ready(function($) {
-    const scrooled = function() {
+jQuery(document).ready(function ($) {
+    const scrooled = function () {
         var docHeight = $(document).height();
         var windowHeight = $(window).height();
         var scrollPos = $(window).scrollTop();
@@ -105,8 +104,24 @@ jQuery(document).ready(function($) {
         }
     }
     $(window).scroll(scrooled);
-    setInterval(()=> {
+    setInterval(() => {
         scrooled();
     }, 100)
+const headerButtons = document.querySelectorAll('.header-contact-button-item');
+
+    $('.header-contact-button-item').hover(
+        function() {
+            headerButtons[0].classList.remove('yellow')
+            headerButtons[1].classList.add('yellow')
+        },
+        function () {
+            headerButtons[0].classList.add('yellow')
+            headerButtons[1].classList.remove('yellow')
+        }
+
+    );
+
 });
+
+
 

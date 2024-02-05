@@ -104,7 +104,9 @@ header .container {
   padding: 6px 25px;
   border-radius: 20px;
 }
-
+.yellow {
+  background-color: #f4d600;
+}
 
 .burger-menu-icon {
   display: flex;
