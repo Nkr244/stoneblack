@@ -596,7 +596,7 @@ header .container {
   gap: 100px;
   margin-bottom: 30px;
 }
-.in-detail-client-title div:first-child h2 {
+.in-detail-client-title div:first-child h1, .in-detail-client-title div:first-child h2 {
   margin: 35px 0;
 }
 .in-detail-client-title div:first-child p {
@@ -619,7 +619,7 @@ header .container {
     font-size: 16px;
   }
 }
-.in-razdel h2 {
+.in-razdel h1, .in-razdel h2 {
   margin: 35px 0;
 }
 
@@ -714,7 +714,7 @@ header .container {
 .about-us {
   margin-bottom: 35px;
 }
-.about-us h2 {
+.about-us h1, .about-us h2 {
   margin: 35px 0;
 }
 .about-us p {
